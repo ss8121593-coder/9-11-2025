@@ -1,8 +1,36 @@
-.c1{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
- align-items: center;  
- justify-content: center; 
- text-align: center;
- margin: 0 auto;
- padding: 10px;
+
+.navbar{
+    background-color: #FFDAB9;
+}
+
+.navbar .navbar-nav .nav-item .nav-link{
+    font-size: 25px;
+    color: rgb(220, 21, 31);
+    padding: 0 20px;
+   
+}
+
+
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    background-color: black;
+    color: white;
+}
+.banner{
+   padding-top: 25%;
+}
+.c1{
+    font-size: 20px;
+    text-align: justify;
+}
+.c2{
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
